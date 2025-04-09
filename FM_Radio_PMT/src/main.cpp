@@ -8,7 +8,7 @@ TEA5767Radio radio = TEA5767Radio();
 void setup()
 { 
   Wire.begin();
-  radio.setFrequency(1032.0); // pick your own frequency
+  radio.setFrequency(87.0); // pick your own frequency
 }
 
 void loop()
